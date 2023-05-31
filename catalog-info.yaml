@@ -6,7 +6,7 @@ metadata:
   labels:
     system: web-apps
   links:
-    - url: https://github.com/ItRachii/E-commerce-project-springBoot
+    - url: https://github.com/ItRachii/Spring-Boot-E-Commerce
       title: Backstage Sample Service GitHub
       icon: code
   tags:
