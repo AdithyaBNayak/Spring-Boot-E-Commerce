@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-boot-E-commerce
+  description: Sample React web app
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/ItRachii/E-commerce-project-springBoot
+      title: Backstage Sample Service GitHub
+      icon: code
+  tags:
+    - javascript
+  annotations:
+    jenkins.io/github-folder: 'spring-boot/e-commerce'
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Rachit
