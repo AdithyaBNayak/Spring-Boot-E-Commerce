@@ -10,7 +10,7 @@ metadata:
       title: Backstage Sample Service GitHub
       icon: code
   tags:
-    - javascript
+    - java
   annotations:
     jenkins.io/github-folder: 'spring-boot/e-commerce'
     backstage.io/techdocs-ref: dir:.
