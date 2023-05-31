@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: spring-boot-E-commerce
-  description: Sample React web app
+  name: spring-boot-E-Commerce
+  description: Sample e-commerce web app
   labels:
     system: web-apps
   links:
     - url: https://github.com/ItRachii/Spring-Boot-E-Commerce
-      title: Backstage Sample Service GitHub
+      title: E-Commerce
       icon: code
   tags:
     - java
