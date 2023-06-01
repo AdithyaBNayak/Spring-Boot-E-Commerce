@@ -14,7 +14,6 @@ metadata:
   annotations:
     jenkins.io/github-folder: 'spring-boot/e-commerce'
     backstage.io/techdocs-ref: dir:.
-    github.com/project-slug: 'ItRachii/Spring-Boot-E-Commerce'
 spec:
   type: service
   lifecycle: experimental
