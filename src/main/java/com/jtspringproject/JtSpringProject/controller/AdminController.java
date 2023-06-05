@@ -42,7 +42,7 @@ public class AdminController {
 		try
 		{
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/springproject","root","");
+			Connection con = DriverManager.getConnection("jdbc:mysql://devexdbidcfnew.c9fwmfdalkmg.ap-south-1.rds.amazonaws.com:3306/springproject","admin","admin#123");
 			Statement stmt = con.createStatement();
 			ResultSet rst = stmt.executeQuery("select * from users where username = '"+username+"' and password = '"+ pass+"' ;");
 			if(rst.next()) {
