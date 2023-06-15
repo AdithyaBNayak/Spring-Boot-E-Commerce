@@ -47,7 +47,7 @@ public class UserController{
 
 			//pst.setString(4, address);
 			int i = pst.executeUpdate();
-			System.out.println("data base updated successfully"+i);
+			System.out.println("data base updated successfully!"+i);
 			
 		}
 		catch(Exception e)
