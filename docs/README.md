@@ -1,10 +1,10 @@
 # Spring-Boot-E-Commerce
 Features
-⚙️Spring Mvc, JDBC , Jsp Servlet
-📝ADMIN MODULE + USER MODULE
-➕CRUD OPERATION
-🌱Easy to understand beginner friendly.
-🥳Pull Request Welcome (Open Source).
+Spring Mvc, JDBC , Jsp Servlet
+ADMIN MODULE + USER MODULE
+CRUD OPERATION
+Easy to understand beginner friendly.
+Pull Request Welcome (Open Source).
 How To Run ?
 Pre requirement:- Spring boot Installed in Eclipse IDE , mysql Database , xampp
 
