@@ -18,5 +18,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: group:EY/Developers/Rachit.Awasthi
+  owner: user:Rachit.Awasthi
   system: platformadoption-k8s0cs-dev
