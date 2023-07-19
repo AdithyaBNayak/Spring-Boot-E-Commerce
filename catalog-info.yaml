@@ -11,6 +11,7 @@ metadata:
       icon: code
   tags:
     - java
+    - webapplication
   annotations:
     jenkins.io/github-folder: 'spring-boot/e-commerce'
     backstage.io/techdocs-ref: dir:.
