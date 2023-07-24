@@ -19,6 +19,6 @@ metadata:
     backstage.io/linguist: https://github.com/ItRachii/Spring-Boot-E-Commerce
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: development
   owner: user:Rachit.Awasthi
   system: platformadoption-k8s0cs-dev
