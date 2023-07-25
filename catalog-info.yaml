@@ -17,7 +17,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: 'ItRachii/Spring-Boot-E-Commerce'
     backstage.io/linguist: https://github.com/ItRachii/Spring-Boot-E-Commerce
-    sonarqube.org/project-key: f5783317438eacce760ee726dcf59c4026275080
+    sonarqube.org/project-key: rachit
 spec:
   type: service
   lifecycle: development
