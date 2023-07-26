@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: E-Commerce-DEV
+  name: E-Commerce-DEV-B
   description: e-commerce web app
   labels:
     system: web-apps
   links:
-    - url: https://github.com/ItRachii/Spring-Boot-E-Commerce
+    - url: https://github.com/AdithyaBNayak/Spring-Boot-E-Commerce
       title: E-Commerce
       icon: code
   tags:
@@ -15,11 +15,11 @@ metadata:
   annotations:
     jenkins.io/github-folder: 'spring-boot/e-commerce'
     backstage.io/techdocs-ref: dir:.
-    github.com/project-slug: 'ItRachii/Spring-Boot-E-Commerce'
-    backstage.io/linguist: https://github.com/ItRachii/Spring-Boot-E-Commerce
+    github.com/project-slug: 'AdithyaBNayak/Spring-Boot-E-Commerce'
+    backstage.io/linguist: https://github.com/AdithyaBNayak/Spring-Boot-E-Commerce
     sonarqube.org/project-key: 'rachit'
 spec:
   type: service
   lifecycle: development
-  owner: user:Rachit.Awasthi
+  owner: user:AdithyaBhairanje
   system: platformadoption-k8s0cs-dev
