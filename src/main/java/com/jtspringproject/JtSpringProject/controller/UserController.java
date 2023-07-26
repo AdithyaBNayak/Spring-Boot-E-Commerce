@@ -38,7 +38,7 @@ public class UserController{
 	{
 		try
 		{
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/springproject","root","");
+			Connection con = DriverManager.getConnection("jdbc:mysql://devexdbidcfnew.c9fwmfdalkmg.ap-south-1.rds.amazonaws.com:3306/springproject","admin","admin#123");
 			PreparedStatement pst = con.prepareStatement("insert into users(username,password,email) values(?,?,?);");
 			pst.setString(1,username);
 			pst.setString(2, password);
@@ -47,7 +47,7 @@ public class UserController{
 
 			//pst.setString(4, address);
 			int i = pst.executeUpdate();
-			System.out.println("data base updated"+i);
+			System.out.println("data base updated successfully!!"+i);
 			
 		}
 		catch(Exception e)
